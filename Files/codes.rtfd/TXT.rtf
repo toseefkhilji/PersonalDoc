@@ -1,0 +1,1281 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 TrebuchetMS;\f4\fnil\fcharset0 HelveticaNeue;\f5\fmodern\fcharset0 Courier;
+\f6\fnil\fcharset0 Menlo-Bold;\f7\fmodern\fcharset0 Courier-Oblique;\f8\fswiss\fcharset0 Arial-Black;
+\f9\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red52\green52\blue52;\red92\green38\blue153;\red46\green13\blue110;
+\red170\green13\blue145;\red28\green0\blue207;\red196\green26\blue22;\red0\green0\blue0;\red43\green39\blue19;
+\red234\green234\blue234;\red255\green255\blue255;\red234\green234\blue234;\red37\green127\blue159;\red0\green0\blue120;
+\red109\green109\blue109;\red100\green56\blue32;\red0\green116\blue0;\red107\green0\blue3;\red14\green0\blue0;
+\red247\green247\blue247;\red3\green26\blue1;\red25\green0\blue208;\red20\green100\blue11;\red53\green125\blue161;
+\red0\green0\blue124;\red99\green8\blue0;\red63\green110\blue116;\red250\green250\blue251;\red0\green122\blue13;
+\red242\green242\blue246;\red94\green0\blue164;\red0\green63\blue165;\red5\green18\blue104;\red197\green59\blue0;
+\red0\green128\blue160;\red0\green2\blue120;\red115\green0\blue0;\red95\green40\blue19;\red90\green112\blue21;
+\red0\green26\blue3;\red0\green1\blue207;\red83\green83\blue83;\red237\green243\blue247;\red185\green196\blue203;
+\red69\green73\blue72;\red38\green71\blue75;}
+{\*\expandedcolortbl;\csgray\c100000;\csgenericrgb\c20392\c20392\c20392;\csgenericrgb\c36078\c14902\c60000;\csgenericrgb\c18039\c5098\c43137;
+\csgenericrgb\c66667\c5098\c56863;\csgenericrgb\c10980\c0\c81176;\csgenericrgb\c76863\c10196\c8627;\cssrgb\c0\c0\c0;\cssrgb\c22353\c20000\c9412;
+\cssrgb\c93333\c93333\c93333;\csgray\c100000;\csgenericrgb\c91765\c91765\c91765;\csgenericrgb\c14510\c49804\c62353;\csgenericrgb\c0\c0\c47059;
+\csgenericrgb\c42745\c42745\c42745;\csgenericrgb\c39216\c21961\c12549;\csgenericrgb\c0\c45490\c0;\csgenericrgb\c41961\c0\c1176;\csgenericrgb\c5490\c0\c0;
+\csgenericrgb\c96863\c96863\c96863;\csgenericrgb\c1176\c10196\c392;\csgenericrgb\c9804\c0\c81569;\csgenericrgb\c7843\c39216\c4314;\csgenericrgb\c20784\c49020\c63137;
+\csgenericrgb\c0\c0\c48627;\csgenericrgb\c38824\c3137\c0;\csgenericrgb\c24706\c43137\c45490;\csgenericrgb\c98039\c98039\c98431;\csgenericrgb\c0\c47843\c5098;
+\csgenericrgb\c94902\c94902\c96471;\csgenericrgb\c36863\c0\c64314;\csgenericrgb\c0\c24706\c64706;\csgenericrgb\c1961\c7059\c40784;\csgenericrgb\c77255\c23137\c0;
+\csgenericrgb\c0\c50196\c62745;\csgenericrgb\c0\c784\c47059;\csgenericrgb\c45098\c0\c0;\csgenericrgb\c37255\c15686\c7451;\csgenericrgb\c35294\c43922\c8235;
+\csgenericrgb\c0\c10196\c1176;\csgenericrgb\c0\c392\c81176;\csgenericrgb\c32549\c32549\c32549;\csgenericrgb\c92941\c95294\c96863;\csgenericrgb\c72549\c76863\c79608;
+\csgenericrgb\c27059\c28627\c28235;\csgenericrgb\c14902\c27843\c29412;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid1\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20520\viewh12440\viewkind0
+\deftab720
+\pard\pardeftab720\sl340\partightenfactor0
+
+\f0\fs26 \cf2 This site is for asking questions, not telling us what you want to do. Please click on the help link and read about how to ask a good question
+\f1\fs24 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+Font\
+\
+\pard\tx626\pardeftab626\pardirnatural\partightenfactor0
+
+\f2\fs26 \cf0 \CocoaLigature0         \cf3 NSArray\cf0  *fontFamilies = [\cf3 UIFont\cf0  \cf4 familyNames\cf0 ];\
+        \cf5 for\cf0  (\cf5 int\cf0  i = \cf6 0\cf0 ; i < [fontFamilies \cf4 count\cf0 ]; i++)\
+        \{\
+            \cf3 NSString\cf0  *fontFamily = [fontFamilies \cf4 objectAtIndex\cf0 :i];\
+            \cf3 NSArray\cf0  *fontNames = [\cf3 UIFont\cf0  \cf4 fontNamesForFamilyName\cf0 :[fontFamilies \cf4 objectAtIndex\cf0 :i]];\
+            \cf4 NSLog\cf0  (\cf7 @"%@: %@"\cf0 , fontFamily, fontNames);\
+        \}\
+
+\f1\fs24 \CocoaLigature1 \
+\pard\pardeftab720\sl580\sa140\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://stackoverflow.com/questions/13833136/any-servers-providing-muslim-prayer-time-in-json-xml"}}{\fldrslt 
+\f3\b\fs26 \cf0 Muslim prayer time in JSON}}
+\f3\b\fs26 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "http://api.xhanch.com/islamic-get-prayer-time.php?lng=55&lat=25&yy=2012&mm=12&gmt=4&m=json"}}{\fldrslt \cf0 http://api.xhanch.com/islamic-get-prayer-time.php?lng=55&lat=25&yy=2012&mm=12&gmt=4&m=json}}\
+\
+\
+\
+\
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f4 \cf8 \expnd0\expndtw0\kerning0
+UPDATE CASE SQLITe Query\
+\
+http://stackoverflow.com/a/17081004/1597744\
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f5\fs26 \cf9 \cb10 UPDATE tableA\
+SET B = 'abcd',\
+    C = CASE\
+        WHEN C = 'abc' THEN 'abcd'\
+                       ELSE C\
+        END\
+WHERE column = 1;
+\f2 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f5\fs24 \cf8 \cb11 Update BGX_MOB_DRAFT_SALESDOC_PRODUCT_SIZE_MAPPING\'a0\
+SET MODIFIEDBY = ?, MODIFIEDDATETIME = ?,\
+ OPERATION_FLAG = CASE WHEN OPERATION_FLAG = 1 THEN 1 ELSE 2 END WHERE SALESDOC_PRODUCT_ID =12345\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b\fs28 \cf0 Round Corner of View\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b0\fs24 \cf0 \
+\pard\pardeftab720\sl340\partightenfactor0
+\cf0 \cb12 -(\cf13 UIView\cf0  *)roundCornersOnView:(\cf13 UIView\cf0  *)view onTopLeft:(BOOL)tl topRight:(BOOL)tr bottomLeft:(BOOL)bl bottomRight:(BOOL)br radius:(\cf13 float\cf0 )radius \{\
+\pard\pardeftab720\sl340\partightenfactor0
+\cf14 if\cf0  (tl || tr || bl || br) \{\
+    \cf13 UIRectCorner\cf0  corner; \cf15 //holds the corner\cf0 \
+    \cf15 //Determine which corner(s) should be changed\cf0 \
+    \cf14 if\cf0  (tl) \{\
+        corner = \cf13 UIRectCornerTopLeft\cf0 ;\
+    \}\
+    \cf14 if\cf0  (tr) \{\
+        \cf13 UIRectCorner\cf0  add = corner | \cf13 UIRectCornerTopRight\cf0 ;\
+        corner = add;\
+    \}\
+    \cf14 if\cf0  (bl) \{\
+        \cf13 UIRectCorner\cf0  add = corner | \cf13 UIRectCornerBottomLeft\cf0 ;\
+        corner = add;\
+    \}\
+    \cf14 if\cf0  (br) \{\
+        \cf13 UIRectCorner\cf0  add = corner | \cf13 UIRectCornerBottomRight\cf0 ;\
+        corner = add;\
+    \}\
+\
+    \cf13 UIView\cf0  *roundedView = view;\
+    \cf13 UIBezierPath\cf0  *maskPath = [\cf13 UIBezierPath\cf0  bezierPathWithRoundedRect:roundedView.bounds byRoundingCorners:corner cornerRadii:\cf13 CGSizeMake\cf0 (radius, radius)];\
+    \cf13 CAShapeLayer\cf0  *maskLayer = [\cf13 CAShapeLayer\cf0  layer];\
+    maskLayer.frame = roundedView.bounds;\
+    maskLayer.path = maskPath.\cf13 CGPath\cf0 ;\
+    roundedView.layer.mask = maskLayer;\
+    \cf14 return\cf0  roundedView;\
+\} \cf14 else\cf0  \{\
+    \cf14 return\cf0  view;\
+\}\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \cb1 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 K V C\
+\
+\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f2\b0\fs22 \cf0 \CocoaLigature0     \cf3 NSArray\cf0  *aray=\cf6 @[@"Abc"\cf0 ,\cf6 @"Brawo"\cf0 ,\cf6 @"Charle"\cf0 ,\cf6 @"self"]\cf0 ;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b\fs24 \cf0 \CocoaLigature1 	\
+	
+\b0 \
+
+\b Reverse Array \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b0 \cf0 \
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0     \cf3 NSArray\cf0  *aray=\cf6 @[@1\cf0 ,\cf6 @2\cf0 ,\cf6 @3\cf0 ,\cf6 @4]\cf0 ;\
+    \cf3 NSArray\cf0  *reversed=aray.\cf4 reverseObjectEnumerator\cf0 .\cf4 allObjects\cf0 ;\
+    
+\f1\fs24 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 Transparent  Navigation bar\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f2\b0\fs22 \cf0 \CocoaLigature0 \
+    [\cf5 self\cf0 .\cf3 navigationController\cf0 .\cf3 navigationBar\cf0  \cf4 setBackgroundImage\cf0 :[\cf3 UIImage\cf0  \cf4 new\cf0 ] \cf4 forBarMetrics\cf0 :\cf4 UIBarMetricsDefault\cf0 ];\
+    [\cf5 self\cf0 .\cf3 navigationController\cf0 .\cf3 navigationBar\cf0  \cf4 setShadowImage\cf0 :[\cf3 UIImage\cf0  \cf4 new\cf0 ]];\
+\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f6\b \cf0 to revert back \
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f2\b0 \cf0 \
+    [\cf5 self\cf0 .\cf3 navigationController\cf0 .\cf3 navigationBar\cf0  \cf4 setBackgroundImage\cf0 :\cf5 nil\cf0  \cf4 forBarMetrics\cf0 :\cf4 UIBarMetricsDefault\cf0 ];\
+    [\cf5 self\cf0 .\cf3 navigationController\cf0 .\cf3 navigationBar\cf0  \cf4 setShadowImage\cf0 :\cf5 nil\cf0 ];\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0     \cf5 if\cf0  ([\cf5 self\cf0  \cf4 respondsToSelector\cf0 :\cf5 @selector\cf0 (edgesForExtendedLayout)])\
+        \cf5 self\cf0 .\cf3 edgesForExtendedLayout\cf0  = \cf4 UIRectEdgeNone\cf0 ;\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 ios6 and iOS 7\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b0 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0     \cf5 if\cf0  (\cf4 floor\cf0 (\cf3 NSFoundationVersionNumber\cf0 ) <= \cf16 NSFoundationVersionNumber_iOS_6_1\cf0 ) \{\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0         \cf17 // Load resources for iOS 6.1 or earlier\cf0 \
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 \CocoaLigature1 	\CocoaLigature0 \} \cf5 else\cf0  \{\
+        \cf17 // Load resources for iOS 7 or later\cf0 \
+\ls1\ilvl0\CocoaLigature1 	\CocoaLigature0 \}
+\f1\fs28 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf13 \cb12 NSArray\cf0  *\cf13 MainArray\cf0  = [\cf13 NSArray\cf0  arrayWithObjects:@\cf18 "A"\cf0 , @\cf18 "U"\cf0 , @\cf18 "U"\cf0 , @\cf18 "U"\cf0 , nil]; \cf15 // Array already stored \cf0 \
+\
+\cf13 NSArray\cf0  *\cf13 SubArray\cf0  = [\cf13 NSArray\cf0  arrayWithObjects:@\cf18 "A"\cf0 , @\cf18 "U"\cf0 , nil]; \cf15 // Array I passed during runtime\cf0 \
+\
+remove item from one array to another.
+\f1\fs24 \cb1 \
+
+\f2\fs28 \cf13 \cb12 NSMutableArray\cf0  *mainMutableArray = [\cf13 NSMutableArray\cf0  arrayWithArray:\cf13 MainArray\cf0 ];\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf14 for\cf0  (id instance in \cf13 SubArray\cf0 ) \{\
+    \cf13 NSUInteger\cf0  position = [mainMutableArray indexOfObject:instance];\
+    \cf14 if\cf0  (position != \cf13 NSNotFound\cf0 ) \{\
+        [mainMutableArray removeObjectAtIndex:position];\
+    \} \
+\}\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf13 MainArray\cf0  = [\cf13 NSArray\cf0  arrayWithArray:mainMutableArray];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 Sort Alphanumeric Array\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b0\fs28 \cf13 \cb12 NSArray\cf0  *tableAry = [[\cf13 NSArray\cf0  alloc] initWithObjects:@\cf18 "Product1"\cf0 ,@\cf18 "Product10"\cf0 ,@\cf18 "Product2"\cf0 ,@\cf18 "Product3"\cf0 ,@\cf18 "Product4"\cf0 ,@\cf18 "Product5"\cf0 ,@\cf18 "Product6"\cf0 ,@\cf18 "Product7"\cf0 ,@\cf18 "Product8"\cf0 ,@\cf18 "Product9"\cf0 , nil];\
+\
+tableAry = [tableAry sortedArrayUsingComparator:^\cf13 NSComparisonResult\cf0 (id obj1, id obj2) \{\
+        \cf14 return\cf0  [(\cf13 NSString\cf0  *)obj1 compare:(\cf13 NSString\cf0  *)obj2 options:\cf13 NSNumericSearch\cf0 ];\
+    \}];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0              Button with image and title  like
+\b0  {{\NeXTGraphic Screen Shot 2014-01-31 at 2.24.58 PM.png \width2260 \height960
+}¬}\
+\
+\pard\tx529\pardeftab529\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0     \cf3 UIButton\cf0  *button = [\cf3 UIButton\cf0  \cf4 buttonWithType\cf0 :\cf4 UIButtonTypeCustom\cf0 ];\
+    button.\cf3 frame\cf0  = \cf4 CGRectMake\cf0 (\cf6 20\cf0 , \cf6 200\cf0 , \cf6 200\cf0 , \cf6 72\cf0 );\
+    \cf3 UIImage\cf0  *image = [\cf3 UIImage\cf0  \cf4 imageNamed\cf0 :\cf7 @"icon"\cf0 ];\
+    [button \cf4 setImage\cf0 :image \cf4 forState\cf0 :\cf4 UIControlStateNormal\cf0 ];\
+    button.\cf3 imageEdgeInsets\cf0  = \cf4 UIEdgeInsetsMake\cf0 (\cf6 0\cf0 ,\cf6 130\cf0 , \cf6 0\cf0 , \cf6 0\cf0 );\
+    [button \cf4 setTitle\cf0 :\cf7 @"Hello"\cf0  \cf4 forState\cf0 :\cf4 UIControlStateNormal\cf0 ];\
+    button.\cf3 titleEdgeInsets\cf0  = \cf4 UIEdgeInsetsMake\cf0 (\cf6 0\cf0 , \cf6 20\cf0 , \cf6 0\cf0 , \cf6 0\cf0 );\
+    button.\cf3 contentHorizontalAlignment\cf0  = \cf4 UIControlContentHorizontalAlignmentLeft\cf0 ;\
+    button.\cf3 titleLabel\cf0 .\cf3 textColor\cf0 =[\cf3 UIColor\cf0  \cf4 blueColor\cf0 ];\
+    [button.\cf3 layer\cf0  \cf4 setBorderWidth\cf0 :\cf6 2\cf0 ];\
+    [button.\cf3 layer\cf0  \cf4 setBorderColor\cf0 :[\cf3 UIColor\cf0  \cf4 blueColor\cf0 ].\cf3 CGColor\cf0 ];\
+    [button.\cf3 layer\cf0  \cf4 setCornerRadius\cf0 :\cf6 20\cf0 ];\
+    [\cf5 self\cf0 .\cf3 view\cf0  \cf4 addSubview\cf0 :button];\
+    
+\f1\fs24 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 Button inside Status bar.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b0 \cf0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf0 \cb12 [button setTranslatesAutoresizingMaskIntoConstraints: NO];\
+id topGuide = myViewController.topLayoutGuide;\
+\cf13 NSDictionary\cf0  *viewsDictionary = \cf13 NSDictionaryOfVariableBindings\cf0  (button, topGuide);\
+\
+[myViewController.view addConstraints:\
+    [\cf13 NSLayoutConstraint\cf0  constraintsWithVisualFormat: @\cf18 "V:[topGuide]-20-[button]"\cf0 \
+    options: \cf18 0\cf0 \
+    metrics: \cf14 nil\cf0 \
+    views: viewsDictionary]\
+];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 Compilation block with return type inside\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b0 \cf0 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f2\fs28 \cf0 \cb12 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf0 - (\cf14 void\cf0 )myMethod:(\cf14 void\cf0 (^)(BOOL finished))completion \{\
+    [\cf13 UIView\cf0  animateWithDuration:\cf18 1.0\cf0  animations:^\{\
+        \cf15 //my code\cf0 \
+    \} completion:^(BOOL finished) \{\
+        completion(finished);\
+        _messageView.hidden = YES; \cf15 //my new line\cf0 \
+    \}];\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 GSD with Compilation block\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b0 \cf0 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf0 \cb12 - (\cf14 void\cf0 )viewDidLoad\
+\{\
+    [super viewDidLoad];\
+\
+    [self loadingDataSource:^\{\
+        [self.tableView reloadData];\
+    \}];\
+\}\
+\
+- (\cf14 void\cf0 )loadingDataSource:(\cf14 void\cf0  (^)(\cf14 void\cf0 ))completion\
+\{\
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, \cf18 0\cf0 ), ^\{\
+        \cf15 // Load data source\cf0 \
+        \cf14 if\cf0  (completion)\
+        \{\
+            dispatch_async(dispatch_get_main_queue(), completion);\
+        \}\
+    \});\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 GCD\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b0 \cf0 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f5 \cf19 \cb20 dispatch_async\cf21 (\cf19 dispatch_get_global_queue\cf21 (\cf19 DISPATCH_QUEUE_PRIORITY_DEFAULT, \cf22 0\cf21 )\cf19 , \cf21 ^\{\cf19 \
+    
+\f7\i \cf23 // switch to a background thread and perform your expensive operation
+\f5\i0 \cf19 \
+\'a0\
+    dispatch_async\cf21 (\cf19 dispatch_get_main_queue\cf21 ()\cf19 , \cf21 ^\{\cf19 \
+        
+\f7\i \cf23 // switch back to the main thread to update your UI
+\f5\i0 \cf19 \
+\'a0\
+    \cf21 \})\cf19 ;\
+\cf21 \})\cf19 ;\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1 \cf0 \cb1 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 Sorting array with dict\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b0\fs28 \cf13 \cb12 NSArray\cf0  *sortedArray = [array sortedArrayUsingComparator:^\cf13 NSComparisonResult\cf0 (id a, id b) \{\
+    \cf13 NSDictionary\cf0  *first = (\cf13 NSDictionary\cf0 *)a;\
+    \cf13 NSDictionary\cf0  *second = (\cf13 NSDictionary\cf0 *)b;\
+    \cf14 return\cf0  [first[@\cf18 "name"\cf0 ] compare:second[@\cf18 "name"\cf0 ]];\
+\}];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f6\b\fs22 \cf0 \CocoaLigature0 Custom font text filed in search bar\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b0\fs28 \cf0 \cb12 \CocoaLigature1 [[\cf24 UITextField\cf0  appearanceWhenContainedIn:[\cf24 UISearchBar\cf0  \cf25 class\cf0 ], nil] setFont:[\cf24 UIFont\cf0  fontWithName:@\cf26 "ArialMT"\cf0  size:\cf26 10\cf0 ]];\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\fs22 \cf0 \cb1 \CocoaLigature0 \
+\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f6\b \cf0 Call url phone number\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b0\fs28 \cf24 \cb12 \CocoaLigature1 NSString\cf0  *cleanedString = [[phoneNumber componentsSeparatedByCharactersInSet:[[\cf24 NSCharacterSet\cf0  characterSetWithCharactersInString:@\cf26 "0123456789-+()"\cf0 ] invertedSet]] componentsJoinedByString:@\cf26 ""\cf0 ];\
+NSURL *telURL = [NSURL \cf24 URLWithString\cf0 :[\cf24 NSString\cf0  stringWithFormat:@\cf26 "tel:%@"\cf0 , cleanedString]];\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\fs22 \cf0 \cb1 \CocoaLigature0 \
+\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f6\b \cf0 // UIButton with Image n text\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\b0\fs28 \cf24 \cb12 \CocoaLigature1 UIButton\cf0  *button = [\cf24 UIButton\cf0  buttonWithType:\cf24 UIButtonTypeRoundedRect\cf0 ];\
+button.frame = \cf24 CGRectMake\cf0 (\cf26 20\cf0 , \cf26 20\cf0 , \cf26 200\cf0 , \cf26 72\cf0 );\
+\cf24 UIImage\cf0  *image = [\cf24 UIImage\cf0  imageNamed:@\cf26 "rob.png"\cf0 ];\
+[button setImage:image forState:\cf24 UIControlStateNormal\cf0 ];\
+button.imageEdgeInsets = \cf24 UIEdgeInsetsMake\cf0 (\cf26 0\cf0 , \cf26 10\cf0 , \cf26 0\cf0 , \cf26 0\cf0 );\
+[button setTitle:@\cf26 "Hello"\cf0  forState:\cf24 UIControlStateNormal\cf0 ];\
+button.titleEdgeInsets = \cf24 UIEdgeInsetsMake\cf0 (\cf26 0\cf0 , \cf26 20\cf0 , \cf26 0\cf0 , \cf26 0\cf0 );\
+button.contentHorizontalAlignment = \cf24 UIControlContentHorizontalAlignmentLeft\cf0 ;\
+[self.view addSubview:button];\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\fs22 \cf0 \cb1 \CocoaLigature0 \
+\
+\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f6\b \cf0 /// UIVIEW Animation for Push & Pop\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\b0 \cf16 #import \cf7 <QuartzCore/QuartzCore.h>\cf0 \
+-(\cf5 IBAction\cf0 )push:(\cf5 id\cf0 )sender \{\
+    \cf3 CATransition\cf0  *transition = [\cf3 CATransition\cf0  \cf4 animation\cf0 ];\
+    transition.\cf3 duration\cf0  = \cf6 0.4\cf0 ;\
+    transition.\cf3 type\cf0  = \cf3 kCATransitionPush\cf0 ;\
+    transition.\cf3 subtype\cf0  = \cf3 kCATransitionFromRight\cf0 ;\
+    [\cf5 self\cf0 .\cf3 view\cf0 .\cf3 layer\cf0  \cf4 addAnimation\cf0 :transition \cf4 forKey\cf0 :\cf5 nil\cf0 ];\
+    [\cf5 self\cf0 .\cf3 view\cf0  \cf4 addSubview\cf0 :\cf27 newview\cf0 ];\
+\}\
+\
+-(\cf5 IBAction\cf0 )pop:(\cf5 id\cf0 )sender \{\
+    \cf3 CATransition\cf0  *transition = [\cf3 CATransition\cf0  \cf4 animation\cf0 ];\
+    transition.\cf3 duration\cf0  = \cf6 0.4\cf0 ;\
+    transition.\cf3 type\cf0  = \cf3 kCATransitionPush\cf0 ;\
+    transition.\cf3 subtype\cf0  = \cf3 kCATransitionFromLeft\cf0 ;\
+    [\cf5 self\cf0 .\cf3 view\cf0 .\cf3 layer\cf0  \cf4 addAnimation\cf0 :transition \cf4 forKey\cf0 :\cf5 nil\cf0 ];\
+    [\cf27 newview\cf0  \cf4 removeFromSuperview\cf0 ];\
+    \cf17 //  [self.view addSubview:mrView];\cf0 \
+\}\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\fs28 \cf0 \cb12 \CocoaLigature1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf0 \
+\
+\
+- (BOOL)isOS7\
+\{\
+    \cf24 float\cf0  currentVersion = \cf26 7.0\cf0 ;\
+\
+    \cf25 if\cf0  ([[[\cf24 UIDevice\cf0  currentDevice] systemVersion] floatValue] < currentVersion)\
+        \cf25 return\cf0  NO;\
+\
+    \cf25 return\cf0  YES;\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 /// Has Prefix\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\b0\fs28 \cf0 \cb12 [string hasPrefix:@"a"]\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 //Exprssion \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\b0\fs28 \cf13 \cb12 NSExpression\cf0  *e = [\cf13 NSExpression\cf0  expressionWithFormat:@\cf18 "1+2+3232+4"\cf0 ];\
+\cf13 NSNumber\cf0  *result = [e expressionValueWithObject:nil context:nil];\
+\cf13 NSLog\cf0 (@\cf18 "%@"\cf0 , result);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \
+\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\b\fs28 \cf0 \cb12 Valid Url\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\b0 \cf0 \
+- (BOOL) validateUrl: (\cf13 NSString\cf0  *) url \{\
+   \cf13 NSString\cf0  *theURL =\
+   @\cf18 "(http|https)://((\\\\w)*|([0-9]*)|([-|_])*)+([\\\\.|/]((\\\\w)*|([0-9]*)|([-|_])*))+"\cf0 ;\
+   \cf13 NSPredicate\cf0  *urlTest = [\cf13 NSPredicate\cf0  predicateWithFormat:@\cf18 "SELF MATCHES %@"\cf0 , theURL]; \
+   \cf14 return\cf0  [urlTest evaluateWithObject:url];\
+   \}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \
+\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 Date N datformates\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4560\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr460 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f8\fs36 \cf0 Format String\cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+\cf0 Output String\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9\b0 \cf0 M/d/y
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 11/4/2012
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 MM/dd/yy
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 11/04/12
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 MMM d, ''yy
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 Nov 4, '12
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 MMMM
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 November
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 E
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 Sun
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 EEEE
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 Sunday
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 'Week' w 'of 52'
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 Week 45 of 52
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 'Day' D 'of 365'
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 Day 309 of 365
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 QQQ
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 Q4
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 QQQQ
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 4th quarter
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 m 'minutes past' h
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 9 minutes past 8
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 h:mm a
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 8:09 PM
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 HH:mm:ss's'
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 20:09:00s
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 HH:mm:ss:SS
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 20:09:00:00
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 h:mm a zz
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 8:09 PM CST
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 h:mm a zzzz
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 8:09 PM Central Standard Time
+\f1 \cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trcbpat28 \tamart360 \tamarb360 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil \trpadl540 \trpadr540 
+\clvertalc \clshdrawnil \clwWidth3940\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr720 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth4660\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr360 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 yyyy-MM-dd HH:mm:ss Z
+\f1 \cell 
+\pard\intbl\itap1\pardeftab720\sl460\partightenfactor0
+
+\f9 \cf0 2012-11-04 20:09:00 -0600
+\f1 \cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \
+\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 /// return random no. between range\
+\pard\pardeftab720\sl460\partightenfactor0
+
+\f9\b0\fs30 \cf29 \cb30 int\cf0  \cf31 getRandomInteger\cf0 (\cf29 int\cf0  minimum, \cf29 int\cf0  maximum) \{\
+    \cf32 return\cf0  \cf33 arc4random_uniform\cf0 ((maximum \cf32 -\cf0  minimum) \cf32 +\cf0  \cf34 1\cf0 ) \cf32 +\cf0  minimum;\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 //storyboard viewcontroller init\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\b0\fs28 \cf0 \cb12     \cf35 UIViewController\cf0  *vc=[[\cf36 self\cf0  storyboard] instantiateViewControllerWithIdentifier:@\cf37 "10"\cf0 ];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 // ios6 or iOS5 method\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\b0\fs28 \cf36 \cb12 if\cf0 ( [ someObject respondsToSelector: \cf37 @selector\cf0 ( someIOS6Method ) ] )\
+\{ \cf15 /* iOS 6 code */\cf0  \}\
+\cf36 else\cf0 \
+\{ \cf15 /* iOS 5 code */\cf0  \}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \
+\
+///// CUstom classs\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs28 \cf15 \cb12 //USer.h\cf0 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf37 @interface\cf0  \cf35 User\cf0 : \cf35 NSObject\cf0 \
+\{\}\
+\cf37 @property\cf0 (nonatomic, strong) \cf35 NSMutableArray\cf0  *items;\
+\cf37 @end\cf0 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf15 //User.m\cf0 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf37 @implementation\cf0  \cf35 User\cf0 \
+-(id)init\{\
+ \cf36 if\cf0  (self = [super init])\{\
+   self.items = [\cf35 NSMutableArray\cf0  array];\
+ \}\
+ \cf36 return\cf0  self;\
+\}\
+\cf37 @end\cf0 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf15 //In other class\cf0 \
+\cf15 #import "User.h"\cf0 \
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf35 User\cf0  *u = [[\cf35 User\cf0  alloc] init];\
+[u.items addObject:@\cf37 "foo"\cf0 ];\
+\
+[u.items addObject:@\cf37 "bar"\cf0 ];\
+\
+\cf36 for\cf0  (\cf35 NSString\cf0  *aStr in u.items) \{\
+\
+  \cf35 NSLog\cf0  (@\cf37 "%@"\cf0 ,aStr)\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \
+\pard\pardeftab720\sl580\sa140\partightenfactor0
+
+\f3\fs28 \cf0  Check if an NSDate occurs between two other NSDates
+\f1\fs24 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs28 \cf0 \cb12 + (BOOL)date:(\cf35 NSDate\cf0 *)date isBetweenDate:(\cf35 NSDate\cf0 *)beginDate andDate:(\cf35 NSDate\cf0 *)endDate\
+\{\
+    \cf36 if\cf0  ([date compare:beginDate] == \cf35 NSOrderedAscending\cf0 )\
+    	\cf36 return\cf0  NO;\
+\
+    \cf36 if\cf0  ([date compare:endDate] == \cf35 NSOrderedDescending\cf0 ) \
+    	\cf36 return\cf0  NO;\
+\
+    \cf36 return\cf0  YES;\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \
+\
+\
+/// macro color\
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f5 \cf38 \cb20 #define RGB(r, g, b) \cf39 \
+    \cf40 [\cf39 UIColor colorWithRed\cf40 :(\cf39 r\cf40 )/\cf41 255.0\cf39  green\cf40 :(\cf39 g\cf40 )/\cf41 255.0\cf39  blue\cf40 :(\cf39 b\cf40 )/\cf41 255.0\cf39  alpha\cf40 :\cf41 1\cf40 ]\cf39 \
+ \cf38 #define RGBA(r, g, b, a) \cf39 \
+    \cf40 [\cf39 UIColor colorWithRed\cf40 :(\cf39 r\cf40 )/\cf41 255.0\cf39  green\cf40 :(\cf39 g\cf40 )/\cf41 255.0\cf39  blue\cf40 :(\cf39 b\cf40 )/\cf41 255.0\cf39  alpha\cf40 :\cf39 a\cf40 ]\cf39 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1 \cf0 \cb1 \
+\
+\
+\
+\
+\
+\
+\
+// ipad iPhone\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat43 \trbrdrt\brdrs\brdrw20\brdrcf44 \trbrdrl\brdrs\brdrw20\brdrcf44 \trbrdrr\brdrs\brdrw20\brdrcf44 \tapadb80 
+\clvertalc \clshdrawnil \clwWidth21200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl260\partightenfactor0
+
+\f5 \cf42 if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) \{\
+\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat43 \trbrdrl\brdrs\brdrw20\brdrcf44 \trbrdrr\brdrs\brdrw20\brdrcf44 \tapadb80 
+\clvertalc \clshdrawnil \clwWidth21200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl260\partightenfactor0
+\cf42      // The device is an iPad running iOS 3.2 or later.\
+\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat43 \trbrdrl\brdrs\brdrw20\brdrcf44 \trbrdrr\brdrs\brdrw20\brdrcf44 \tapadb80 
+\clvertalc \clshdrawnil \clwWidth21200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl260\partightenfactor0
+\cf42 \}\
+\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat43 \trbrdrl\brdrs\brdrw20\brdrcf44 \trbrdrr\brdrs\brdrw20\brdrcf44 \tapadb80 
+\clvertalc \clshdrawnil \clwWidth21200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl260\partightenfactor0
+\cf42 else \{\
+\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat43 \trbrdrl\brdrs\brdrw20\brdrcf44 \trbrdrr\brdrs\brdrw20\brdrcf44 \tapadb80 
+\clvertalc \clshdrawnil \clwWidth21200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl260\partightenfactor0
+\cf42      // The device is an iPhone or iPod touch.\
+\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trcbpat43 \trbrdrl\brdrs\brdrw20\brdrcf44 \trbrdrb\brdrs\brdrw20\brdrcf44 \trbrdrr\brdrs\brdrw20\brdrcf44 \tapadb80 
+\clvertalc \clshdrawnil \clwWidth21200\clftsWidth3 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt120 \clpadl120 \clpadb120 \clpadr120 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\sl260\partightenfactor0
+\cf42 \}\cell \lastrow\row
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1 \cf0 \
+\
+\
+get current viewController\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf0 \cb12 -(\cf36 void\cf0 ) myCommonMethod:(\cf35 UIViewController\cf0 *) aViewController\
+\{\
+      \cf36 if\cf0 ([aViewController isMemberOfClass:\cf35 NSClassFromString\cf0 (@\cf37 "MyFirstController"\cf0 )])\
+      \{\
+      \}\
+      \cf36 else\cf0  \cf36 if\cf0 ([aViewController isMemberOfClass:\cf35 NSClassFromString\cf0 (@\cf37 "MySecondController"\cf0 )])\
+      \{  \
+\
+      \}\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+//// Local notifications \
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf3 \CocoaLigature0 UILocalNotification\cf0  *localNotification = [[\cf3 UILocalNotification\cf0  \cf4 alloc\cf0 ] \cf4 init\cf0 ]; \cf17 //Create the localNotification object\cf0 \
+    [localNotification \cf4 setFireDate\cf0 :[\cf3 NSDate\cf0  \cf4 dateWithTimeIntervalSinceNow\cf0 :[\cf27 datePicker\cf0  \cf4 countDownDuration\cf0 ]]]; \cf17 //Set the date when the alert will be launched using the date adding the time the user selected on the timer\cf0 \
+\
+    \
+    [localNotification \cf4 setAlertAction\cf0 :\cf7 @"Launch"\cf0 ]; \cf17 //The button's text that launches the application and is shown in the alert\cf0 \
+    [localNotification \cf4 setAlertBody\cf0 :[\cf27 alertBodyField\cf0  \cf4 text\cf0 ]]; \cf17 //Set the message in the notification from the textField's text\cf0 \
+    [localNotification \cf4 setHasAction\cf0 : \cf5 YES\cf0 ]; \cf17 //Set that pushing the button will launch the application\cf0 \
+    [localNotification \cf4 setApplicationIconBadgeNumber\cf0 :[[\cf3 UIApplication\cf0  \cf4 sharedApplication\cf0 ] \cf4 applicationIconBadgeNumber\cf0 ]+\cf6 1\cf0 ]; \cf17 //Set the Application Icon Badge Number of the application's icon to the current Application Icon Badge Number plus 1\cf0 \
+    \
+    [[\cf3 UIApplication\cf0  \cf4 sharedApplication\cf0 ] \cf4 scheduleLocalNotification\cf0 :localNotification];\
+\
+\
+\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+//Random Color\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0     \
+    \cf5 int\cf0  r = \cf4 arc4random\cf0 () % \cf6 255\cf0 ;\
+    \cf5 int\cf0  g = \cf4 arc4random\cf0 () % \cf6 255\cf0 ;\
+    \cf5 int\cf0  b = \cf4 arc4random\cf0 () % \cf6 255\cf0 ;\
+    \cf3 UIColor\cf0  *color = [\cf3 UIColor\cf0  \cf4 colorWithRed\cf0 :(r/\cf6 255.0\cf0 ) \cf4 green\cf0 :(g/\cf6 255.0\cf0 ) \cf4 blue\cf0 :(b/\cf6 255.0\cf0 ) \cf4 alpha\cf0 :\cf6 1.0\cf0 ];\
+    
+\f1\fs24 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+// for valid image url or not\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0 - (\cf5 BOOL\cf0 )isImageUrl:(\cf3 NSString\cf0 *)urls \{\
+    \cf3 NSArray\cf0  *elements = \cf6 @[\cf7 @"http"\cf0 , \cf7 @"."\cf6 ]\cf0 ;\
+    \cf5 for\cf0  (\cf3 NSString\cf0  *element \cf5 in\cf0  elements) \{\
+        \cf5 if\cf0  ([urls \cf4 rangeOfString\cf0 :element].\cf3 location\cf0  == \cf4 NSNotFound\cf0 ) \{\
+            \cf5 return\cf0  \cf5 NO\cf0 ;\
+        \}\
+    \}\
+    \cf3 NSArray\cf0  *possibleFiles = \cf6 @[\cf7 @"jpeg"\cf0 , \cf7 @"png"\cf0 , \cf7 @"jpg"\cf6 ]\cf0 ;\
+    \cf5 for\cf0  (\cf3 NSString\cf0  *file \cf5 in\cf0  possibleFiles) \{\
+        \cf5 if\cf0  ([urls \cf4 rangeOfString\cf0 :file].\cf3 location\cf0  != \cf4 NSNotFound\cf0 ) \{\
+            \cf5 return\cf0  \cf5 YES\cf0 ;\
+        \}\
+    \}\
+    \cf5 return\cf0  \cf5 NO\cf0 ;\
+\}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+\
+\
+////lighter Color Darker color\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0 - (\cf3 UIColor\cf0  *)lighterColorForColor:(\cf3 UIColor\cf0  *)c\
+\{\
+    \cf5 float\cf0  r, g, b, a;\
+    \cf5 if\cf0  ([c \cf4 getRed\cf0 :&r \cf4 green\cf0 :&g \cf4 blue\cf0 :&b \cf4 alpha\cf0 :&a])\
+        \cf5 return\cf0  [\cf3 UIColor\cf0  \cf4 colorWithRed\cf0 :\cf16 MIN\cf0 (r + \cf6 0.2\cf0 , \cf6 1.0\cf0 )\
+                               \cf4 green\cf0 :\cf16 MIN\cf0 (g + \cf6 0.2\cf0 , \cf6 1.0\cf0 )\
+                                \cf4 blue\cf0 :\cf16 MIN\cf0 (b + \cf6 0.2\cf0 , \cf6 1.0\cf0 )\
+                               \cf4 alpha\cf0 :a];\
+    \cf5 return\cf0  \cf5 nil\cf0 ;\
+\}\
+\
+- (\cf3 UIColor\cf0  *)darkerColorForColor:(\cf3 UIColor\cf0  *)c\
+\{\
+    \cf5 float\cf0  r, g, b, a;\
+    \cf5 if\cf0  ([c \cf4 getRed\cf0 :&r \cf4 green\cf0 :&g \cf4 blue\cf0 :&b \cf4 alpha\cf0 :&a])\
+        \cf5 return\cf0  [\cf3 UIColor\cf0  \cf4 colorWithRed\cf0 :\cf16 MAX\cf0 (r - \cf6 0.2\cf0 , \cf6 0.0\cf0 )\
+                               \cf4 green\cf0 :\cf16 MAX\cf0 (g - \cf6 0.2\cf0 , \cf6 0.0\cf0 )\
+                                \cf4 blue\cf0 :\cf16 MAX\cf0 (b - \cf6 0.2\cf0 , \cf6 0.0\cf0 )\
+                               \cf4 alpha\cf0 :a];\
+    \cf5 return\cf0  \cf5 nil\cf0 ;\
+\}
+\f1\fs24 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+// for view ti image\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf35 \cb12 UIGraphicsBeginImageContext\cf0 (tempView.bounds.size);\
+[tempView.layer renderInContext:\cf35 UIGraphicsGetCurrentContext\cf0 ()];\
+\cf35 UIImage\cf0  *viewImage = \cf35 UIGraphicsGetImageFromCurrentImageContext\cf0 ();\
+\cf35 UIGraphicsEndImageContext\cf0 ();\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\
+\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\f9 \cf1 \cb45 // Disable the idle timer\
+[[UIApplication sharedApplication] setIdleTimerDisabled: YES];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1 \cf0 \cb1 \
+\
+\
+// uianimation fade in\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0 	[\cf3 UIView\cf0  \cf4 beginAnimations\cf0 :\cf5 nil\cf0  \cf4 context\cf0 :\cf5 NULL\cf0 ];\
+	[\cf3 UIView\cf0  \cf4 setAnimationDuration\cf0 :\cf6 0.5\cf0 ];\
+	\cf27 _pieChart\cf0 .\cf3 alpha\cf0  = \cf6 1.0\cf0 ;\
+	[\cf3 UIView\cf0  \cf4 commitAnimations\cf0 ];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \CocoaLigature1 \
+\
+\
+// screenshot prog\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf0 \cb12  \cf35 UIGraphicsBeginImageContext\cf0 (\cf36 self\cf0 .window.bounds.size);\
+    [\cf36 self\cf0 .window.layer renderInContext:\cf35 UIGraphicsGetCurrentContext\cf0 ()];\
+    \cf35 UIImage\cf0  *image = \cf35 UIGraphicsGetImageFromCurrentImageContext\cf0 ();\
+    \cf35 UIGraphicsEndImageContext\cf0 ();\
+    \cf35 NSData\cf0  * data = \cf35 UIImagePNGRepresentation\cf0 (image);\
+    [data writeToFile:@\cf37 "foo.png"\cf0  atomically:YES];\
+\pard\pardeftab720\sl360\sa280\partightenfactor0
+
+\f0 \cf0 \cb1 UPDATE April 2011: for retina display, change the first line into this:\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2 \cf36 \cb12 if\cf0  ([[\cf35 UIScreen\cf0  mainScreen] respondsToSelector:\cf37 @selector\cf0 (scale)])\
+    \cf35 UIGraphicsBeginImageContextWithOptions\cf0 (\cf36 self\cf0 .window.bounds.size, NO, [\cf35 UIScreen\cf0  mainScreen].scale);\
+\cf36 else\cf0 \
+    \cf35 UIGraphicsBeginImageContext\cf0 (\cf36 self\cf0 .window.bounds.size);\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\
+\
+// for app delegete \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf35 \cb12 NSObject\cf0  <\cf35 UIApplicationDelegate\cf0 > * universalAppDelegate = \
+    ( \cf35 NSObject\cf0  <\cf35 UIApplicationDelegate\cf0 > * ) [ [ \cf35 UIApplication\cf0  sharedApplication ] delegate ];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+//// for dynamic text size\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f2\fs28 \cf35 \cb12 CGSize\cf0  size = [text sizeWithFont:font\
+                   constrainedToSize:maximumLabelSize\
+                   lineBreakMode:\cf35 UILineBreakModeWordWrap\cf0 ];\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \cb1 \
+\
+\
+\
+//searching within string\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0  \cf3 NSString\cf0  *temp=[\cf3 NSString\cf0  \cf4 stringWithFormat\cf0 :\cf7 @"%@"\cf0 ,\cf27 name\cf0 ];\
+        \cf5 if\cf0  ([temp \cf4 rangeOfString\cf0 :\cf27 searchbar2\cf0 .\cf3 text\cf0 ].\cf3 location\cf0  != \cf4 NSNotFound\cf0 )\
+        \{\
+            \cf4 NSLog\cf0 (\cf7 @"Found"\cf0 );\
+            [\cf27 dataSource\cf0  \cf4 addObject\cf0 :\cf4 CFBridgingRelease\cf0 (person)];\
+        \}\
+        \cf5 else\cf0 \
+        \{\
+            \cf4 NSLog\cf0 (\cf7 @"Not Found"\cf0 );\
+        \}
+\f1\fs24 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+code fro image && any check Condition\'85..\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf0 \CocoaLigature0 [\cf27 playButton\cf0  \cf4 setImage\cf0 :((p.\cf3 playing\cf0  == \cf5 YES\cf0 ) ? \cf27 pauseBtnBG\cf0  : \cf27 playBtnBG\cf0 ) \cf4 forState\cf0 :\cf4 UIControlStateNormal\cf0 ];\
+\
+\
+\
+// FOr Background loading\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+\cf16 #define ikBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, \cf6 0\cf16 )\
+\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+\cf0 dispatch_async(\cf16 ikBgQueue\cf0 , ^\{\
+    NSData* data = [NSData dataWithContentsOfURL: googleRequestURL];\
+    [\cf5 self\cf0  performSelectorOnMainThread:\cf5 @selector\cf0 (fetchedData:) withObject:data waitUntilDone:\cf5 YES\cf0 ];\
+\});\
+\
+(\cf5 void\cf0 )fetchedData:(NSData *)responseData \{\
+    \cf17 //background methods\
+\cf0 \}\
+\
+\
+\
+\
+\
+// code for file size like\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs28 \cf0 \cb12 \CocoaLigature1  \cf36 if\cf0  (![value isKindOfClass:[\cf35 NSNumber\cf0  \cf36 class\cf0 ]])\
+        \cf36 return\cf0  \cf36 nil\cf0 ;\
+\
+    \cf36 double\cf0  convertedValue = [value doubleValue];\
+    \cf36 int\cf0  multiplyFactor = \cf37 0\cf0 ;\
+\
+    \cf35 NSArray\cf0  *tokens = [\cf35 NSArray\cf0  arrayWithObjects:@\cf37 "B"\cf0 ,@\cf37 "KB"\cf0 ,@\cf37 "MB"\cf0 ,@\cf37 "GB"\cf0 ,@\cf37 "TB"\cf0 ,\cf36 nil\cf0 ];\
+\
+    \cf36 while\cf0  (convertedValue > \cf37 1024\cf0 ) \{\
+        convertedValue /= \cf37 1024\cf0 ;\
+        multiplyFactor++;\
+    \}\
+\
+    \cf36 return\cf0  [\cf35 NSString\cf0  stringWithFormat:@\cf37 "%4.2f %@"\cf0 ,convertedValue, [tokens objectAtIndex:multiplyFactor],value];\
+\}\
+\pard\tx560\pardeftab560\pardirnatural\partightenfactor0
+
+\fs22 \cf0 \cb1 \CocoaLigature0 \
+\
+// Shake animation\
+- (\cf5 void\cf0 )animateIncorrectPassword \{\
+    \cf17 // Clear the password field\cf0 \
+    \
+    \cf17 // Animate the alert to show that the entered string was wrong\cf0 \
+    \cf17 // "Shakes" similar to OS X login screen\cf0 \
+    \cf3 CGAffineTransform\cf0  moveRight = \cf4 CGAffineTransformTranslate\cf0 (\cf3 CGAffineTransformIdentity\cf0 , \cf6 20\cf0 , \cf6 0\cf0 );\
+    \cf3 CGAffineTransform\cf0  moveLeft = \cf4 CGAffineTransformTranslate\cf0 (\cf3 CGAffineTransformIdentity\cf0 , -\cf6 20\cf0 , \cf6 0\cf0 );\
+    \cf3 CGAffineTransform\cf0  resetTransform = \cf4 CGAffineTransformTranslate\cf0 (\cf3 CGAffineTransformIdentity\cf0 , \cf6 0\cf0 , \cf6 0\cf0 );\
+    \
+    [\cf3 UIView\cf0  \cf4 animateWithDuration\cf0 :\cf6 0.1\cf0  \cf4 animations\cf0 :^\{\
+        \cf17 // Translate left\cf0 \
+        \cf5 self\cf0 .\cf3 transform\cf0  = moveLeft;\
+        \
+    \} \cf4 completion\cf0 :^(\cf5 BOOL\cf0  finished) \{\
+        \
+        [\cf3 UIView\cf0  \cf4 animateWithDuration\cf0 :\cf6 0.1\cf0  \cf4 animations\cf0 :^\{\
+            \
+            \cf17 // Translate right\cf0 \
+            \cf5 self\cf0 .\cf3 transform\cf0  = moveRight;\
+            \
+        \} \cf4 completion\cf0 :^(\cf5 BOOL\cf0  finished) \{\
+            \
+            [\cf3 UIView\cf0  \cf4 animateWithDuration\cf0 :\cf6 0.1\cf0  \cf4 animations\cf0 :^\{\
+                \
+                \cf17 // Translate left\cf0 \
+                \cf5 self\cf0 .\cf3 transform\cf0  = moveLeft;\
+                \
+            \} \cf4 completion\cf0 :^(\cf5 BOOL\cf0  finished) \{\
+                \
+                [\cf3 UIView\cf0  \cf4 animateWithDuration\cf0 :\cf6 0.1\cf0  \cf4 animations\cf0 :^\{\
+                    \
+                    \cf17 // Translate to origin\cf0 \
+                    \cf5 self\cf0 .\cf3 transform\cf0  = resetTransform;\
+                \}];\
+            \}];\
+            \
+        \}];\
+    \}];\
+\
+\}\
+\
+\
+///// search bar\
+- (\cf3 CGFloat\cf0 )tableView:(\cf3 UITableView\cf0  *)tableView heightForHeaderInSection:(\cf3 NSInteger\cf0 )section\
+\{\
+    \cf5 if\cf0  (section == \cf6 0\cf0 ) \cf5 return\cf0  \cf6 44.f\cf0 ;\
+    \cf5 return\cf0  \cf6 0.f\cf0 ;\
+\}\
+\
+- (\cf3 UIView\cf0  *) tableView:(\cf3 UITableView\cf0  *)tableView viewForHeaderInSection:(\cf3 NSInteger\cf0 )section\
+\{\
+    \cf5 if\cf0 (section == \cf6 0\cf0 )\
+    \{\
+        \cf3 UIView\cf0  *headerView = [[\cf3 UIView\cf0  \cf4 alloc\cf0 ] \cf4 initWithFrame\cf0 :\cf4 CGRectMake\cf0 (\cf6 0\cf0 ,\cf6 0\cf0 , \cf6 320\cf0 , \cf6 44\cf0 )]; \cf17 // x,y,width,height\cf0 \
+        \
+        \cf3 NSArray\cf0  *itemArray = [\cf3 NSArray\cf0  \cf4 arrayWithObjects\cf0 : \cf7 @"One"\cf0 , \cf7 @"Two"\cf0 , \cf5 nil\cf0 ];\
+        \cf3 UISegmentedControl\cf0  *control = [[\cf3 UISegmentedControl\cf0  \cf4 alloc\cf0 ] \cf4 initWithItems\cf0 :itemArray];\
+        [control \cf4 setFrame\cf0 :\cf4 CGRectMake\cf0 (\cf6 60.0\cf0 , \cf6 0\cf0 , \cf6 200.0\cf0 , \cf6 40.0\cf0 )];\
+        [control \cf4 setSegmentedControlStyle\cf0 :\cf4 UISegmentedControlStylePlain\cf0 ];\
+        [control \cf4 setSelectedSegmentIndex\cf0 :\cf6 0\cf0 ];\
+        [control \cf4 setEnabled\cf0 :\cf5 YES\cf0 ];\
+        \
+        [headerView \cf4 addSubview\cf0 :control];\
+        \cf5 return\cf0  headerView;\
+        \
+    \}\
+\}\
+- (\cf5 void\cf0 ) searchBarTextDidBeginEditing:(\cf3 UISearchBar\cf0  *)theSearchBar\
+\{\
+    \
+	\cf5 self\cf0 .\cf3 navigationItem\cf0 .\cf3 rightBarButtonItem\cf0  = [[[\cf3 UIBarButtonItem\cf0  \cf4 alloc\cf0 ] \cf4 initWithBarButtonSystemItem\cf0 :\cf4 UIBarButtonSystemItemDone\cf0  \cf4 target\cf0 :\cf5 self\cf0  \cf4 action\cf0 :\cf5 @selector\cf0 (doneSearching_Clicked:)] \cf4 autorelease\cf0 ];\
+\}\
+\
+- (\cf5 void\cf0 )searchBar:(\cf3 UISearchBar\cf0  *)theSearchBar textDidChange:(\cf3 NSString\cf0  *)searchText\
+\{\
+    \
+    \cf5 if\cf0  (theSearchBar.\cf3 text\cf0 .\cf4 length\cf0 ==\cf6 0\cf0 )\
+    \{\
+        [\cf5 self\cf0  \cf46 loadEvents\cf0 ];\
+    \}\
+    \cf5 else\cf0 \
+        [\cf5 self\cf0  \cf46 searchTableView\cf0 ];\
+	\
+\}\
+\
+- (\cf5 void\cf0 ) searchBarSearchButtonClicked:(\cf3 UISearchBar\cf0  *)theSearchBar \{\
+	\
+    \
+    \cf5 if\cf0  (theSearchBar.\cf3 text\cf0 .\cf4 length\cf0 ==\cf6 0\cf0 )\
+    \{\
+        [\cf5 self\cf0  \cf46 loadEvents\cf0 ];\
+    \}\
+    \cf5 else\cf0 \
+        [\cf5 self\cf0  \cf46 searchTableView\cf0 ];\
+    \
+    [theSearchBar \cf4 resignFirstResponder\cf0 ];\
+\}\
+- (\cf5 void\cf0 ) doneSearching_Clicked:(\cf5 id\cf0 )sender \{\
+	\
+	[\cf27 searchBar\cf0  \cf4 resignFirstResponder\cf0 ];\
+	\cf5 self\cf0 .\cf3 navigationItem\cf0 .\cf3 rightBarButtonItem\cf0  = \cf5 nil\cf0 ;\
+	\cf5 self\cf0 .\cf3 tableView\cf0 .\cf3 scrollEnabled\cf0  = \cf5 YES\cf0 ;\
+    [\cf5 self\cf0 .\cf3 tableView\cf0  \cf4 reloadData\cf0 ];\
+\}\
+}
